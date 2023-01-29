@@ -1,14 +1,17 @@
 <template>
-    <div>
-        <h2>국내 숙박 메인</h2>
-    </div>
+  <div>
+    <header-main></header-main>
+    <h2>국내 숙박 메인</h2>
+  </div>
 </template>
 
-<script lang="ts">
-import { Vue } from 'vue-class-component';
+<script>
+import HeaderMain from "../../common/header/HeaderMain.vue";
 
-
-export default class DamMain extends Vue {
-
-}
+export default {
+  name: "DamMain",
+  components: {
+    "header-main": HeaderMain,
+  },
+};
 </script>
