@@ -1,9 +1,15 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/dad">DAD</router-link> |
+    <router-link to="/dai">DAI</router-link> |
+    <router-link to="/dam">DAM</router-link> |
+    <router-link to="/dap">DAP</router-link> |
+    <router-link to="/basket">BASKET</router-link> |
+    <router-link to="/info">INFO</router-link> |
+    <router-link to="/reservation">RESERVATION</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
