@@ -8,9 +8,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HomeView",
-  components: {},
-};
+<script lang="ts">
+export default {};
 </script>

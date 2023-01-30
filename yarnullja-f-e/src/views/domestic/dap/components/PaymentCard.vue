@@ -1,12 +1,11 @@
 <template>
   <div>
-    <h2>Header</h2>
+    <b-button variant="danger">Button</b-button>
   </div>
 </template>
 
 <script lang="ts">
 export default {
-  name: "HeaderMain",
-  components: {},
+  name: "PaymentCard",
 };
 </script>
