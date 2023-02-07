@@ -12,6 +12,7 @@
   <div class="container-fluid" >
     <div class="row" style="height: 900px;">
 
+      
       <!-- check payment Area -->
       <div class="col">
           <!-- title Area -->
