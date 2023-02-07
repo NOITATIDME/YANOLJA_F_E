@@ -11,7 +11,7 @@ import HeaderMain from "../../common/header/HeaderMain.vue";
 export default {
   name: "DadMain",
   components: {
-    "header-main": HeaderMain,
+    "header-main": HeaderMain, //test
   },
 };
 </script>
