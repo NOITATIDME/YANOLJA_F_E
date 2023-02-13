@@ -1,0 +1,280 @@
+ @font-face {
+     font-family: 'jalna';
+     src: url('@/assets/fonts/jalnan.ttf') format('woff');
+ }
+
+/*위클리 Top*/
+
+.Category-button{
+    background-color: #fff;
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center; */
+    height: 1.5rem;
+    color: #8A8788;
+    border: 2px solid #8A8788;
+    border-radius: 10rem;
+    max-width: 12.4rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    white-space: nowrap;
+    font-size: small;
+    margin: 0.3rem;
+}
+
+.Category-button-select {
+    background-color: #5566FA;
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center; */
+    height: 1.5rem;
+    color: #FFFFFF;
+    border: 2px solid #5566FA;
+    border-radius: 10rem;
+    max-width: 12.4rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    white-space: nowrap;
+    font-size: small;
+    margin: 0.3rem;
+}
+
+.Motel_Category_3_8 {
+    max-width: 76.8rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    position: relative;
+    padding: 1rem 3rem 1rem 3rem;
+
+}
+
+.Hotel_Category_3_8 {
+    color: inherit;
+    text-decoration: none;
+    color: #1a1a1a;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 0.3rem;
+    min-width: 5.8rem;
+}
+
+
+
+/* 인기 여행지 */
+.Top_Place_Item_title {
+    font-family: 'jalna';
+    position: absolute;
+    color: #ffffff;
+    font-size: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 100%;
+}
+.Top_Place_3_8{
+    max-width: 76.8rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    position: relative;
+    padding: 1rem 3rem 1rem 3rem;
+
+}
+
+.Top_Place_3_8_items {
+    color: inherit;
+    text-decoration: none;
+    color: #1a1a1a;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 0.3rem;
+    min-width: 5.8rem;
+}
+
+.Top_Place_3_8_items img {
+    /* position: absolute; */
+    width: 7rem;
+    height: 7rem;
+    mix-blend-mode: darken;
+    opacity: 0.9;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+/*바로 가기*/
+.Quick_Category_Item_title{
+    font-family: 'jalna';
+} 
+
+.Quick_Category_3_8 {
+    max-width: 76.8rem;
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-justify-content: space-between;
+    position: relative;
+    padding: 1rem 3rem 1rem 3rem;
+
+}
+.Quick_Category_3_8_items{
+    color: inherit;
+    text-decoration: none;
+    color: #1a1a1a;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 0.3rem;
+    min-width: 5.8rem;
+}
+
+.Quick_Category_3_8_items_badge{
+    background-color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 1.5rem;
+    color: #de2e5f;
+    border: 2px solid #f6c0cf;
+    border-radius: 10rem;
+    max-width: 12.4rem;
+    padding: 0.3rem 0.8rem 0;
+    white-space: nowrap;
+    font-size: small;
+}
+
+.Quick_Category_3_8_items_badge_empty {
+    background-color: #ffffff00;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 1.5rem;;
+    color: #ffffff00;
+    border: 2px solid #ffffff00;
+    border-radius: 10rem;
+    max-width: 12.4rem;
+    padding: 0.3rem 0.8rem 0;
+    white-space: nowrap;
+}
+
+.Quick_Category_3_8_items img {
+    width: 3.8rem;
+    height: 3.8rem;
+    padding-top: 0.3rem;
+    z-index: 10;
+    position: relative;
+}
+
+
+
+/* 컨테이너 공통 */
+.Container_Top {
+    max-width: 76.8rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    position: relative;
+}
+
+.Container_Title {
+    float: left;
+    font-family: 'jalna';
+    text-align: left;
+    vertical-align: left;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    color: #000000;
+}
+
+.Container_More {
+    float: right;
+    font-family: 'jalna';
+    text-align: right;
+    vertical-align: center;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.2rem;
+    color: #5566FA;
+}
+
+.Container_Desc {
+    font-size: x-small;
+    margin: 0rem;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+.Container_Button {
+    font-size: x-small;
+    margin: 0rem;
+    text-align: left;
+}
+
+.Container_768x68_no2 {
+    max-width: 76.8rem;
+    background-color: #EFEFF5;
+}
+
+.Container_768x68_no1 {
+    max-width: 76.8rem;
+    background-color: #FDFDFD;
+}
+
+
+
+
+
+
+img {
+    border-style: none;
+}
+
+#app {
+    margin: 0 auto;
+    width: 750px;
+    min-height: 100%;
+    padding-top: 71px;
+    /*
+    border-left: 1px #D8D8D8 solid;
+    border-right: 1px #D8D8D8 solid;
+    */
+    positon: relative;
+    text-align: center;
+}
+
+  body {
+      padding: 0;
+      margin: 0;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+  }
+nav {
+    padding: 30px;
+}
+
+nav a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+    color: #42b983;
+}
