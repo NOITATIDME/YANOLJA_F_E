@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/main">Main</router-link> |
     <router-link to="/dad">DAD</router-link> |
     <router-link to="/dai">DAI</router-link> |
     <router-link to="/dam">DAM</router-link> |
