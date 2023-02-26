@@ -42,6 +42,14 @@ const routes: Array<RouteRecordRaw> = [
       ),
   },
   {
+    path: "/dai_list",
+    name: "dai_list",
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../views/domestic/dai/infolist/DaiListMain.vue"
+      ),
+  },
+  {
     path: "/dam",
     name: "dam",
     component: () =>

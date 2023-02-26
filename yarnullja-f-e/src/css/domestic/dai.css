@@ -1,0 +1,225 @@
+/* cdn */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: 'jalna';
+    src: url('@/assets/fonts/jalnan.ttf') format('woff');
+}
+/* card */
+/* DaiCard */
+.card-group {
+    /* padding: 0.3rem; */
+    /* margin: 0.8rem; */
+}
+
+.card {
+    padding: 0.3rem;
+    /* margin: 0.5rem; */
+    border-color: #0B3861;
+}
+
+.card-img-size {
+    height: 50%;
+}
+
+.card-title-CSS {
+    font-family: 'jalna';
+    float: left;
+    text-align: left;
+    vertical-align: left;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0.5rem;
+    color: #000000;
+}
+
+.card-price{
+    float: right;
+    padding: 0.3rem;
+}
+
+/* 별점 */
+/* url('../../assets/images/dai-images/star_rating.png')no-repeat; */
+/* 별이미지 크기 */
+.star-rating {
+    /* width: 205px; */
+    width: 103px;
+}
+
+/* 동시 효과 */
+.star-rating,
+.star-rating span {
+    display: inline-block;
+    height: 20px;
+    overflow: hidden;
+    background-size: contain;
+    background: url(../../assets/images/dai-images/star_rating_small.png)no-repeat;
+}
+
+/* 한쪽 효과 */
+.star-rating span {
+    background-position: left bottom;
+    line-height: 0;
+    vertical-align: top;
+}
+.star-rating p {
+    position: absolute;
+}
+
+.Page_Area {
+    max-width: 76.8rem;
+    background-color: #FDFDFD;
+
+}
+
+.Div_Table {
+    display: table;
+    width: 100%;
+}
+
+.Div_Table_Row {
+    display: table-row;
+}
+
+.Div_Table_cell {
+    display: table-cell;
+}
+
+
+.Detail_Title {
+    float: left;
+    /* font-family: 'jalna'; */
+    text-align: left;
+    vertical-align: left;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    color: #000000;
+}
+
+.Region_Around {
+    float: right;
+    font-family: 'jalna';
+    text-align: right;
+    vertical-align: center;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.2rem;
+    color: #5566FA;
+}
+
+.Event_Banner P{
+    max-width: 76.8rem;
+    font-family: 'jalna';
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    background-color: #0B3861;
+    color: #FFFFFF
+}
+/* 컨테이너 공통 */
+.Container_Top {
+    max-width: 76.8rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: space-between;
+    position: relative;
+}
+
+.Container_Title {
+    font-family: 'jalna';
+    text-align: left;
+    vertical-align: left;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    color: #000000;
+}
+
+.Container_More {
+    float: right;
+    font-family: 'jalna';
+    text-align: right;
+    vertical-align: center;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.2rem;
+    color: #5566FA;
+}
+
+.Container_Desc {
+    font-size: x-small;
+    margin: 0rem;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+.Container_Button {
+    font-size: x-small;
+    margin: 0rem;
+    text-align: left;
+}
+
+.Container_768x68_no2 {
+    max-width: 76.8rem;
+    background-color: #EFEFF5;
+}
+
+.Container_768x68_no1 {
+    max-width: 76.8rem;
+    background-color: #FDFDFD;
+}
+
+img {
+    border-style: none;
+}
+
+.app {
+    margin: 0 auto;
+    /* width: 750px; */
+    width: 1000px;
+    min-height: 100%;
+    padding-top: 71px;
+    
+    /* border-left: 1px #D8D8D8 solid;
+    border-right: 1px #D8D8D8 solid; */
+   
+    positon: relative;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.Nav_Title{
+    font-family: 'jalna';
+    /* text-align: left; */
+    /* vertical-align: left; */
+    float: left;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: #6573F2;
+    border: ffffffff;
+    /* display: inline-block; */
+}
+
+.search {
+    /* display: inline-block; */
+    width: 70%;
+    border: 1px,#6573F2, solid;
+}
+
+.navbar-align{
+    /* display: inline-block; */
+}
