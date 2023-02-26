@@ -162,7 +162,7 @@ export default {
 </script>
 
 <!-- 임시 스타일 -->
-<style>
+<style scope>
 @font-face {
   font-family: "jal";
   src: url("@/assets/fonts/jalnan.ttf");
