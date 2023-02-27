@@ -50,6 +50,14 @@ const routes: Array<RouteRecordRaw> = [
       ),
   },
   {
+    path: "/dai_map",
+    name: "dai_map",
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../views/domestic/dai/map/MapInfo.vue"
+      ),
+  },
+  {
     path: "/dam",
     name: "dam",
     component: () =>

@@ -2,7 +2,7 @@
     <div class="Page_Area">
         <div class="Container_Top">
             <span class="Container_Title">지역 선택</span>
-            <router-link to="/" class="Top_Place_3_8_items">
+            <router-link to="/dai_map" class="Top_Place_3_8_items">
                 <p><span class="Container_More">
                     <i class="bi bi-geo-alt-fill"></i>
                     내 주변</span></p>

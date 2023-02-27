@@ -19,7 +19,7 @@ import DaiCard from "@/views/domestic/dai/infolist/components/DaiCard.vue"
 
 
 export default {
-    name: "DaiMain",
+    name: "DaiListMain",
     components: {
         // "header-main": HeaderMain,
         "header-nav": HeaderNav,
