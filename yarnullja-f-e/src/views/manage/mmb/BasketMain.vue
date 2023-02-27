@@ -27,10 +27,10 @@
       </div>
     </div>
     <div class="container-fluid" style="background-color: #f2f2f2" >
-      <div style="padding-top: 5%" />
-      <div v-for="item in CardLength" v-bind:key="item" style="width: 90%%">
+      <div style="padding-top: 2%" />
+      <div v-for="item in CardLength" v-bind:key="item">
         <basket-info-card/>
-          <div style="padding-top: 5%" />
+          <div style="padding-top: 3%" />
       </div>
       <div style="padding-top: 5%" />
     </div>
@@ -99,7 +99,7 @@ div.box2 {
 
 #app {
   margin: 0 auto;
-  width: 65%;
+  width: 1000px;
   min-height: 100%;
   text-align: center;
 }
