@@ -26,7 +26,7 @@
             </div>
             <!-- title text -->
             <div class="col" style="text-align: left">
-              <h2 style="font-family: gmk">확인 및 결제</h2>
+              <h3 style="font-family: jal">확인 및 결제</h3>
             </div>
           </div>
           <div />
@@ -51,14 +51,18 @@
                 <h6 style="font-family: gmk">날짜</h6>
                 <p>{ 2023년 1월 1일~6일 }</p>
               </div>
-              <div class="col"><button class="btn btn-link">수정</button></div>
+              <div class="col">
+                <button class="btn btn-link">수정</button>
+              </div>
             </div>
             <div style="padding-top: 2%" class="row">
               <div class="col">
                 <h6 style="font-family: gmk">게스트</h6>
                 <p>{ 게스트 1명 }</p>
               </div>
-              <div class="col"><button class="btn btn-link">수정</button></div>
+              <div class="col">
+                <button class="btn btn-link">수정</button>
+              </div>
             </div>
           </div>
           <hr />
@@ -162,7 +166,7 @@ export default {
 </script>
 
 <!-- 임시 스타일 -->
-<style>
+<style scope>
 @font-face {
   font-family: "jal";
   src: url("@/assets/fonts/jalnan.ttf");
@@ -203,7 +207,7 @@ div.box2 {
 }
 #app {
   margin: 0 auto;
-  width: 65%;
+  width: 1000px;
   min-height: 100%;
   text-align: center;
 }

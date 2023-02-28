@@ -6,7 +6,6 @@
     <div v-for="item in CardLength" v-bind:key="item">
       {{ item }} 번째 카드 <br />
       <reservation-card />
-      -----------------------------------------------------------------------
     </div>
   </div>
 </template>

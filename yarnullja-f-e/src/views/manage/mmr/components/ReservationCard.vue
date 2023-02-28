@@ -1,37 +1,17 @@
 <template>
-  <div class="Container_768x68_no1">
-    <div class="Container_Top">
-      <p>
-        <span class="Container_Title">날짜</span>
-        <span class="Container_More">상세보기></span>
-      </p>
-    </div>
-    <div class="Card_Container">
-      <div class="Card_left">
-        <img src="@/assets/images/yeoksam-hotelstar.png" />
-      </div>
-      <div class="Card_right"></div>
-    </div>
-  </div>
-  <div class="card-group">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          This card has supporting text below as a natural lead-in to additional
-          content.
-        </p>
-      </div>
-    </div>
+  <div class="card">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="card-title">날짜</div>
+        <div class="card-more">상세보기</div>
+      </li>
+      <li class="list-group-item second-card">
+        <div class="card-left">
+          <img id="png" src="@/assets/images/yeoksam-hotelstar.png" />
+        </div>
+        <div class="card-right">aa</div>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -49,5 +29,25 @@ div.Card_Container {
   -webkit-justify-content: space-between;
   position: relative;
   padding: 1rem 3rem 1rem 3rem;
+}
+div.card-title {
+  width: 50%;
+  float: left;
+}
+div.card-more {
+  width: 50%;
+  float: right;
+}
+div.card-left {
+  width: 50%;
+  float: left;
+}
+div.card-right {
+  width: 50%;
+  float: right;
+}
+#png {
+  height: 200px;
+  width: 200px;
 }
 </style>
