@@ -30,6 +30,9 @@ div.Card_Container {
   position: relative;
   padding: 1rem 3rem 1rem 3rem;
 }
+div.card {
+  margin: 10px;
+}
 div.card-title {
   width: 50%;
   float: left;
