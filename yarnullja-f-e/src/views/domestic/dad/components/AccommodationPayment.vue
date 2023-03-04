@@ -37,7 +37,7 @@
 
  
 <!-- 임시 스타일 -->
-<style>
+<style scoped> 
 @font-face {
   font-family: 'jal';
   src: url('@/assets/fonts/jalnan.ttf');
